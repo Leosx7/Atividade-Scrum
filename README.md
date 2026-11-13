@@ -32,4 +32,10 @@ A reserva e a consulta usam a mesma agenda. Na simulação original, a reserva a
 
 ## Histórico de entrega
 
-As cinco versões estão marcadas no Git com as tags `atividade-01` até `atividade-05`. No GitHub, abra **Commits** no repositório e copie o link da versão que corresponde a cada atividade.
+| Atividade | Versão no GitHub |
+|---|---|
+| 1. Consulta de horários | [Ver commit](https://github.com/Leosx7/Atividade-Scrum/commit/a665cbef8682d855c67fbcd62b3ddc75383373da) |
+| 2. Reserva sem duplicidade | [Ver commit](https://github.com/Leosx7/Atividade-Scrum/commit/a53bdf201ff6cecebc9cefd498907a7066aac134) |
+| 3. Prioridades do Product Backlog | [Ver commit](https://github.com/Leosx7/Atividade-Scrum/commit/46c8800d45abb7608f3e8d00de551cc6332f77e9) |
+| 4. Impedimento e suporte | [Ver commit](https://github.com/Leosx7/Atividade-Scrum/commit/9c11c4a16650ec9f5e321db02808c4d3441ac82a) |
+| 5. Cancelamento e liberação de vaga | [Ver commit](https://github.com/Leosx7/Atividade-Scrum/commit/9e804234cc97c9353453b3d28a6c2a13a159af75) |
