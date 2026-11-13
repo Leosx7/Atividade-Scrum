@@ -44,3 +44,11 @@ function mostrarPrioridades() {
 
 cenario.addEventListener('change', mostrarPrioridades);
 mostrarPrioridades();
+
+const suporte = document.querySelector('#suporte');
+const acesso = document.querySelector('#acesso');
+
+suporte.addEventListener('click', () => {
+  acesso.textContent = 'Acesso restabelecido na simulação. O teste de cancelamento pode ser retomado.';
+  suporte.disabled = true;
+});

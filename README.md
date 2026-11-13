@@ -13,3 +13,7 @@ A meta da Sprint é reservar um horário livre sem duplicar reservas. O Product 
 ## Atividade 3 · Product Owner
 
 O seletor de cenários demonstra a mudança de prioridade. Com cinco atrasos, o lembrete vinha primeiro. Ao descobrir que oito reservas ficaram sem uso, o cancelamento passou à frente porque devolve vagas à consulta.
+
+## Atividade 4 · Scrum Master
+
+O acesso da conta de teste foi bloqueado. O Scrum Master aciona o suporte, e os Developers adiantam o roteiro em papel. O painel simula a liberação. O teste seguinte verifica a confirmação de cancelamento e a atualização da disponibilidade.
