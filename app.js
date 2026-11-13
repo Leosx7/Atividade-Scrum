@@ -15,3 +15,32 @@ document.querySelector('#formulario').addEventListener('submit', (evento) => {
     resultado.textContent = 'Reserva confirmada.';
   }
 });
+
+const cenario = document.querySelector('#cenario');
+const backlog = document.querySelector('#backlog');
+const prioridades = {
+  inicial: {
+    itens: ['Enviar lembrete', 'Cancelar reserva', 'Personalizar cores'],
+    motivo: 'Cinco estudantes chegaram atrasados. Um lembrete aproveita as notificações que o aplicativo já consegue enviar.'
+  },
+  revisado: {
+    itens: ['Cancelar reserva', 'Enviar lembrete', 'Personalizar cores'],
+    motivo: 'Oito reservas ficaram sem uso. O cancelamento devolve esses horários à lista de vagas.'
+  }
+};
+
+function mostrarPrioridades() {
+  const { itens, motivo } = prioridades[cenario.value];
+  const lista = document.createElement('ol');
+  for (const item of itens) {
+    const linha = document.createElement('li');
+    linha.textContent = item;
+    lista.append(linha);
+  }
+  const justificativa = document.createElement('p');
+  justificativa.textContent = motivo;
+  backlog.replaceChildren(lista, justificativa);
+}
+
+cenario.addEventListener('change', mostrarPrioridades);
+mostrarPrioridades();
