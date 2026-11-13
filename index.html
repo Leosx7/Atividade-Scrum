@@ -12,7 +12,7 @@
     <header>
       <p class="eyebrow">BIBLIOTECA · SALA DE ESTUDO</p>
       <h1>Reservas da Biblioteca</h1>
-      <p>Consulte os horários da Sala 1.</p>
+      <p>Consulte ou reserve um horário da Sala 1.</p>
     </header>
     <section aria-labelledby="consulta">
       <h2 id="consulta">Consultar horários</h2>
@@ -23,7 +23,7 @@
           <option value="10:00">10h</option>
           <option value="11:00">11h</option>
         </select>
-        <div class="acoes"><button>Consultar</button></div>
+        <div class="acoes"><button type="submit" value="consultar">Consultar</button> <button type="submit" value="reservar">Reservar</button></div>
       </form>
       <p id="resultado" role="status"></p>
     </section>
