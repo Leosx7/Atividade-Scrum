@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Reservas da Biblioteca</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <main>
+    <header>
+      <p class="eyebrow">BIBLIOTECA · SALA DE ESTUDO</p>
+      <h1>Reservas da Biblioteca</h1>
+      <p>Consulte os horários da Sala 1.</p>
+    </header>
+    <section aria-labelledby="consulta">
+      <h2 id="consulta">Consultar horários</h2>
+      <form id="formulario">
+        <label for="horario">Horário da Sala 1</label>
+        <select id="horario">
+          <option value="09:00">9h</option>
+          <option value="10:00">10h</option>
+          <option value="11:00">11h</option>
+        </select>
+        <div class="acoes"><button>Consultar</button></div>
+      </form>
+      <p id="resultado" role="status"></p>
+    </section>
+  </main>
+</body>
+</html>

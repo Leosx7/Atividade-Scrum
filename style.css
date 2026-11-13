@@ -1,0 +1,17 @@
+* { box-sizing: border-box; }
+body { margin: 0; background: #f2f5f3; color: #182b25; font: 1rem/1.55 system-ui, sans-serif; }
+main { max-width: 47rem; margin: 0 auto; padding: 2.5rem 1rem; }
+header { background: #173d31; color: white; padding: clamp(1.2rem, 5vw, 2.4rem); border-radius: 1rem; }
+header p { margin: 0; }
+.eyebrow { font-size: .76rem; letter-spacing: .12em; font-weight: 700; }
+h1 { font-size: clamp(1.65rem, 5vw, 2.5rem); line-height: 1.12; margin: .6rem 0; }
+h2 { font-size: 1.25rem; margin: 0 0 .8rem; }
+section { background: white; border: 1px solid #d2dfd8; padding: 1.25rem; margin-top: 1rem; border-radius: .85rem; }
+label { display: block; font-weight: 650; margin-bottom: .3rem; }
+select, button { font: inherit; border-radius: .45rem; min-height: 2.65rem; padding: .35rem .7rem; }
+select { border: 1px solid #82988d; width: 100%; max-width: 24rem; background: white; color: inherit; }
+button { background: #176048; color: white; border: 1px solid #176048; cursor: pointer; }
+button:hover { background: #104c38; }
+button:focus-visible, select:focus-visible { outline: 3px solid #a04b00; outline-offset: 3px; }
+.acoes { display: flex; gap: .65rem; flex-wrap: wrap; margin-top: .85rem; }
+#resultado { min-height: 1.55em; margin: .75rem 0 0; font-weight: 650; }
