@@ -15,3 +15,11 @@ button:hover { background: #104c38; }
 button:focus-visible, select:focus-visible { outline: 3px solid #a04b00; outline-offset: 3px; }
 .acoes { display: flex; gap: .65rem; flex-wrap: wrap; margin-top: .85rem; }
 #resultado { min-height: 1.55em; margin: .75rem 0 0; font-weight: 650; }
+.status-horario { margin: .6rem 0 0; }
+#lista-reservas { display: grid; gap: .65rem; list-style: none; padding: 0; }
+#lista-reservas li { display: flex; align-items: center; justify-content: space-between; gap: .65rem; }
+.secundario { color: #173d31; background: white; border-color: #82988d; }
+.secundario:hover { background: #eaf3ee; }
+button:disabled { cursor: default; opacity: .65; }
+dialog { width: min(28rem, 92vw); border: 1px solid #82988d; border-radius: .85rem; padding: 1.25rem; color: inherit; }
+dialog::backdrop { background: #182b2580; }

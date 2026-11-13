@@ -23,10 +23,28 @@
           <option value="10:00">10h</option>
           <option value="11:00">11h</option>
         </select>
+        <p id="disponibilidade" class="status-horario"></p>
         <div class="acoes"><button type="submit" value="consultar">Consultar</button> <button type="submit" value="reservar">Reservar</button></div>
       </form>
       <p id="resultado" role="status"></p>
     </section>
+    <section aria-labelledby="minhas-reservas">
+      <h2 id="minhas-reservas">Minhas reservas</h2>
+      <p>Perfil de teste: Ana</p>
+      <ul id="lista-reservas"></ul>
+      <p id="situacao-reserva" role="status"></p>
+      <button type="button" class="secundario" id="reiniciar">Reiniciar demonstração</button>
+    </section>
+    <dialog id="cancelamento" aria-labelledby="titulo-cancelamento">
+      <form method="dialog">
+        <h2 id="titulo-cancelamento">Cancelar reserva</h2>
+        <p id="pergunta"></p>
+        <div class="acoes">
+          <button class="secundario" value="voltar" autofocus>Voltar</button>
+          <button value="confirmar">Confirmar</button>
+        </div>
+      </form>
+    </dialog>
     <section aria-labelledby="impedimento">
       <h2 id="impedimento">Ambiente de testes</h2>
       <p id="acesso" role="status">Acesso bloqueado. A conta de teste aguarda liberação pelo suporte.</p>
